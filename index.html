@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUNARA | Luxury Jewelry</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="announcement">
+    COMPLIMENTARY SHIPPING ON ORDERS OVER €75
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+    <a href="#home" class="logo">LUNARA<span>.</span></a>
+
+    <nav class="navigation">
+      <a href="#collection">Collection</a>
+      <a href="#categories">Categories</a>
+      <a href="#story">Our Story</a>
+    </nav>
+
+    <button class="bag-button" id="openBag">
+      BAG (<span id="bagCount">0</span>)
+    </button>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-background"></div>
+
+    <div class="hero-content">
+      <p class="eyebrow">THE ART OF EVERYDAY ELEGANCE</p>
+      <h1>Jewelry that<br><em>feels timeless.</em></h1>
+
+      <p class="hero-description">
+        Discover delicate statements and timeless treasures,
+        designed to become part of your story.
+      </p>
+
+      <a href="#collection" class="primary-button">
+        Discover the Collection <span>↗</span>
+      </a>
+    </div>
+
+    <div class="hero-caption">
+      <span>01 / SIGNATURE COLLECTION</span>
+      <span>DESIGNED WITH INTENTION</span>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="categories-section" id="categories">
+    <div class="section-heading">
+      <p class="eyebrow">EXPLORE LUNARA</p>
+      <h2>Find your <em>signature.</em></h2>
+    </div>
+
+    <div class="category-grid">
+      <a href="#collection" class="category-card">
+        <div class="category-image">
+          <img src="/images/earring-4.jpg" alt="Earrings">
+        </div>
+        <span>Earrings <span>↗</span></span>
+      </a>
+
+      <a href="#collection" class="category-card">
+        <div class="category-image">
+          <img src="/images/necklace-9.jpg" alt="Necklaces">
+        </div>
+        <span>Necklaces <span>↗</span></span>
+      </a>
+
+      <a href="#collection" class="category-card">
+        <div class="category-image">
+          <img src="/images/Goldwristband-4.avif" alt="Bracelets">
+        </div>
+        <span>Bracelets <span>↗</span></span>
+      </a>
+
+      <a href="#collection" class="category-card">
+        <div class="category-image">
+          <img src="/images/rings-1.jpg" alt="Rings">
+        </div>
+        <span>Rings <span>↗</span></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- COLLECTION -->
+  <section class="collection-section" id="collection">
+    <div class="collection-heading">
+      <div>
+        <p class="eyebrow">CURATED FOR YOU</p>
+        <h2>The Signature <em>Collection</em></h2>
+      </div>
+      <a href="#collection" class="text-link">Discover all pieces ↗</a>
+    </div>
+
+    <div class="product-grid">
+
+      <article class="product-card">
+        <div class="product-image">
+          <span class="product-label">BESTSELLER</span>
+          <img src="/images/Goldearring-1.jpg" alt="Pearl Current Earrings">
+          <button class="quick-add" data-product="pearl">+ Add to Bag</button>
+        </div>
+        <div class="product-details">
+          <div>
+            <h3>Pearl Current Earrings</h3>
+            <p>Freshwater Pearl · Gold Finish</p>
+          </div>
+          <span class="product-price">€48</span>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">
+          <span class="product-label">NEW ARRIVAL</span>
+          <img src="./images/pearl-sculpture-earrings.jpg" alt="Sculpture Loop Earrings">
+          <button class="quick-add" data-product="sculpture">+ Add to Bag</button>
+        </div>
+        <div class="product-details">
+          <div>
+            <h3>Sculpture Loop Earrings</h3>
+            <p>Statement · Sculptural Gold</p>
+          </div>
+          <span class="product-price">€52</span>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">
+          <span class="product-label">LUNARA EDIT</span>
+          <img src="./images/set-2.jpg" alt="Golden Horizon Necklace">
+          <button class="quick-add" data-product="horizon">+ Add to Bag</button>
+        </div>
+        <div class="product-details">
+          <div>
+            <h3>Golden Horizon Necklace</h3>
+            <p>Minimal · Gold Finish</p>
+          </div>
+          <span class="product-price">€75</span>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">
+          <span class="product-label">TIMELESS</span>
+          <img src="/images/pendant1.jpg" alt="Celestial Pendant">
+          <button class="quick-add" data-product="celestial">+ Add to Bag</button>
+        </div>
+        <div class="product-details">
+          <div>
+            <h3>Celestial Pendant</h3>
+            <p>Delicate · Everyday Luxury</p>
+          </div>
+          <span class="product-price">€68</span>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">
+          <span class="product-label">ESSENTIAL</span>
+          <img src="/images/braceleet1.jpg" alt="Aurora Gold Bracelet">
+          <button class="quick-add" data-product="aurora">+ Add to Bag</button>
+        </div>
+        <div class="product-details">
+          <div>
+            <h3>Aurora Gold Bracelet</h3>
+            <p>Elegant · Gold Finish</p>
+          </div>
+          <span class="product-price">€59</span>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">
+          <span class="product-label">THE CLASSIC</span>
+          <img src="./images/ring-1.jpg" alt="Eternal Glow Ring">
+          <button class="quick-add" data-product="eternal">+ Add to Bag</button>
+        </div>
+        <div class="product-details">
+          <div>
+            <h3>Eternal Glow Ring</h3>
+            <p>Minimal · Polished Gold</p>
+          </div>
+          <span class="product-price">€45</span>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">
+          <span class="product-label">SIGNATURE</span>
+          <img src="/images/necklacee1.jpg" alt="Moonlight Pearl Necklace">
+          <button class="quick-add" data-product="moonlight">+ Add to Bag</button>
+        </div>
+        <div class="product-details">
+          <div>
+            <h3>Moonlight Pearl Necklace</h3>
+            <p>Freshwater Pearl · Gold Finish</p>
+          </div>
+          <span class="product-price">€89</span>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="product-image">
+          <span class="product-label">STATEMENT</span>
+          <img src="/images/set-8.jpg" alt="Solstice Statement Earrings">
+          <button class="quick-add" data-product="solstice">+ Add to Bag</button>
+        </div>
+        <div class="product-details">
+          <div>
+            <h3>Solstice Statement Earrings</h3>
+            <p>Bold · Sculptural Gold</p>
+          </div>
+          <span class="product-price">€65</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- BRAND STORY -->
+  <section class="story-section" id="story">
+    <div class="story-image">
+      <img src="/images/set-5.avif" alt="LUNARA jewelry detail">
+    </div>
+
+    <div class="story-content">
+      <p class="eyebrow">A LITTLE MORE ABOUT US</p>
+      <h2>Made for moments.<br><em>Made to last.</em></h2>
+
+      <p>
+        At LUNARA, we believe jewelry is more than an accessory.
+        It is a quiet expression of individuality, a reminder of
+        beautiful moments, and a detail that makes every day feel special.
+      </p>
+
+      <a href="#collection" class="primary-button">Explore Our Pieces ↗</a>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter-section">
+    <p class="eyebrow">THE LUNARA LETTER</p>
+    <h2>A little elegance<br><em>in your inbox.</em></h2>
+    <p>Discover new arrivals, timeless inspiration, and exclusive updates.</p>
+
+    <form class="newsletter-form" id="newsletterForm">
+      <input type="email" placeholder="Your email address" required>
+      <button type="submit">JOIN ↗</button>
+    </form>
+  </section>
+
+  <!-- BAG BACKDROP -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- SHOPPING BAG DRAWER -->
+  <aside class="bag-drawer" id="bagDrawer">
+    <div class="bag-header">
+      <h2>Your Shopping Bag <span id="bagHeaderCount">(0)</span></h2>
+      <button class="close-button" id="closeBag" aria-label="Close bag">×</button>
+    </div>
+
+    <div class="bag-items" id="bagItems">
+      <p class="empty-bag">Your bag is currently empty.</p>
+    </div>
+
+    <div class="bag-footer">
+      <div class="shipping-message" id="shippingMessage">
+        Add products to your bag to begin.
+      </div>
+
+      <div class="total-line">
+        <span>Subtotal</span>
+        <span id="subtotal">€0.00</span>
+      </div>
+
+      <div class="total-line">
+        <span>Shipping</span>
+        <span id="shipping">€0.00</span>
+      </div>
+
+      <div class="total-line grand-total">
+        <span>Total</span>
+        <span id="total">€0.00</span>
+      </div>
+
+      <button class="checkout-button" id="checkoutButton" disabled>
+        Proceed to Checkout
+      </button>
+
+      <p class="secure-note">Secure demo checkout · No real payment</p>
+    </div>
+  </aside>
+
+  <!-- CHECKOUT MODAL -->
+  <div class="checkout-overlay" id="checkoutOverlay">
+    <div class="checkout-modal">
+      <div class="checkout-header">
+        <h2>Checkout</h2>
+        <button class="close-button" id="closeCheckout">×</button>
+      </div>
+
+      <p class="demo-notice">
+        This is a demo checkout. No real payment will be taken.
+      </p>
+
+      <form id="checkoutForm">
+        <label for="customerName">Full Name</label>
+        <input type="text" id="customerName" autocomplete="name" required>
+
+        <label for="customerEmail">Email Address</label>
+        <input type="email" id="customerEmail" autocomplete="email" required>
+
+        <label for="customerAddress">Street Address</label>
+        <input type="text" id="customerAddress" autocomplete="street-address" required>
+
+        <label for="customerCity">City</label>
+        <input type="text" id="customerCity" autocomplete="address-level2" required>
+
+        <label for="customerPostal">Postal Code</label>
+        <input type="text" id="customerPostal" autocomplete="postal-code" required>
+
+        <label for="customerCountry">Country</label>
+        <input type="text" id="customerCountry" autocomplete="country-name" required>
+
+        <div class="checkout-total">
+          <span>Total</span>
+          <strong id="checkoutTotal">€0.00</strong>
+        </div>
+
+        <button type="submit" class="checkout-button">
+          Place Demo Order
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ORDER SUCCESS -->
+  <div class="success-overlay" id="successOverlay">
+    <div class="success-modal">
+      <div class="success-icon">✓</div>
+      <h2>Thank You!</h2>
+      <p>Your demo order has been successfully placed.</p>
+      <p id="orderNumber" class="order-reference"></p>
+      <p class="demo-notice">
+        This is a demo order. No real payment was processed.
+      </p>
+      <button class="primary-button" id="finishOrder">Continue Shopping</button>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <a href="#home" class="logo">LUNARA<span>.</span></a>
+      <p>Jewelry, refined.</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="#collection">Collection</a>
+      <a href="#story">Our Story</a>
+      <a href="#home">Back to Top ↑</a>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 LUNARA. All rights reserved.</p>
+      <p>Designed with elegance.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
